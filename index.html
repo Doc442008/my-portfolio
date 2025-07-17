@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barrett Phillips - Data Science Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+            color: #333;
+        }
+
+        header {
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            padding: 1rem 5%;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 2rem;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+        }
+
+        .nav-links a:hover {
+            color: #007bff;
+        }
+
+        section {
+            padding: 5rem 10%;
+        }
+
+        .hero {
+            background: linear-gradient(135deg, #007bff, #00d2ff);
+            color: white;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .about, .skills {
+            background: #fff;
+        }
+
+        h2 {
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+            color: #007bff;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+        }
+
+        .skill-card {
+            background: #f8f9fa;
+            padding: 1.5rem;
+            border-radius: 8px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <h3>Barrett Phillips</h3>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Transitioning Healthcare Professional | Aspiring Data Scientist | Problem Solver</p>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h2>About Me</h2>
+        <p>With over 20 years of experience in healthcare as a Certified Surgical Technologist, I am now leveraging my 
+           strong analytical thinking, attention to detail, and problem-solving abilities in the field of Data Science. 
+           My background in high-pressure medical environments has honed my ability to make critical decisions based on 
+           data and maintain precision while working with complex systems.</p>
+        
+        <div class="contact-info" style="margin-top: 2rem;">
+            <p>📍 Houston, Texas 77070</p>
+            <p>📱 832-771-0905</p>
+        </div>
+
+        <div class="professional-summary" style="margin-top: 2rem;">
+            <h3 style="color: #007bff; margin-bottom: 1rem;">Professional Summary</h3>
+            <ul style="list-style-type: none; padding-left: 0;">
+                <li>• Strong analytical and critical thinking skills developed through complex surgical procedures</li>
+                <li>• Excellent attention to detail and data accuracy</li>
+                <li>• Proven ability to work effectively in fast-paced, high-pressure environments</li>
+                <li>• Experience in systematic documentation and process optimization</li>
+                <li>• Strong team collaboration and communication skills</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <h3>Technical Skills</h3>
+                <p>Python Programming, Data Analysis, SQL Basics</p>
+            </div>
+            <div class="skill-card">
+                <h3>Data Analysis</h3>
+                <p>Statistical Analysis, Data Cleaning, Data Visualization</p>
+            </div>
+            <div class="skill-card">
+                <h3>Tools & Libraries</h3>
+                <p>Pandas, NumPy, Matplotlib, Jupyter Notebooks</p>
+            </div>
+            <div class="skill-card">
+                <h3>Healthcare Domain</h3>
+                <p>20+ Years Medical Experience, Clinical Workflows</p>
+            </div>
+            <div class="skill-card">
+                <h3>Soft Skills</h3>
+                <p>Problem Solving, Team Collaboration, Critical Thinking</p>
+            </div>
+            <div class="skill-card">
+                <h3>Project Management</h3>
+                <p>Process Optimization, Documentation, Quality Control</p>
+            </div>
+        </div>
+
+        <section class="experience" id="experience" style="margin-top: 3rem;">
+            <h2>Professional Experience</h2>
+            
+            <div class="experience-item" style="margin-bottom: 2rem;">
+                <h3 style="color: #007bff;">Rad-Link Supplemental Staffing, Houston, TX</h3>
+                <p style="font-style: italic;">Contract with Memorial Hermann Medical Center (2003-Present)</p>
+                <ul style="list-style-type: none; padding-left: 0; margin-top: 1rem;">
+                    <li>• Analyzed and optimized complex surgical workflows, improving operational efficiency</li>
+                    <li>• Managed and documented detailed procedural data for quality assurance</li>
+                    <li>• Collaborated with cross-functional teams in high-pressure environments</li>
+                    <li>• Maintained precise documentation and data tracking for surgical procedures</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <h3 style="color: #007bff;">Diagnostic Hospital, Houston, TX</h3>
+                <p style="font-style: italic;">1993-2003</p>
+                <ul style="list-style-type: none; padding-left: 0; margin-top: 1rem;">
+                    <li>• Implemented systematic approaches to procedure preparation and execution</li>
+                    <li>• Developed and maintained detailed documentation systems</li>
+                    <li>• Coordinated with multiple departments to optimize patient care workflows</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="education" id="education" style="margin-top: 3rem;">
+            <h2>Education & Certification</h2>
+            <div style="margin-top: 1rem;">
+                <p><strong>Houston Community College</strong> (1992-1993)</p>
+                <p>National Board of Surgical Technologist/Assisting</p>
+                <p>Membership Number: 1228776</p>
+                <p style="margin-top: 1rem;"><em>Currently pursuing Data Science education through self-study and structured online programs</em></p>
+            </div>
+        </section>
+    </section>
+</body>
+</html>
